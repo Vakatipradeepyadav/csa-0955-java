@@ -1,0 +1,27 @@
+import java.utill.scanner;
+public class Main
+{
+public static void main(string[]args)
+{
+scanner sc=new scanner(system.in);
+sytem.out.println("how many rows you want in this pattern");
+int rows=sc.nextInt();
+system.out.println("here is your pettrn");
+for(inti=1;i<=rows;i++)
+{
+for(intj=1;j<=i;j++)
+{
+   sytem.out.print("1");
+}
+for(inti=rows-1:i>=1;i--)
+{
+for(intj=1;j<=i;j++)
+{
+system.out.print("1");
+}
+system.out.println();:
+}
+sc.close();
+}
+}
+                                                                                         
